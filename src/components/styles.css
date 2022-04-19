@@ -1,0 +1,175 @@
+.clock {
+    font-size: 5.75rem;
+    font-family: 'Bebas Neue';
+    margin: 1rem;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.date {
+    font-family: 'Bebas Neue', cursive;
+    margin: 1rem;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.clock-container {
+    padding: 1rem;
+}
+
+.bike-icon {
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+}
+
+.bike-container {
+    font-family: 'Akshar';
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align:right;
+}
+
+.bike-number {
+    font-weight: bold;
+}
+
+.no-bike {
+    color: red;
+}
+
+.caution-bike {
+    color: yellow;
+}
+
+.weather-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-flow: row;
+    font-family: Akshar;
+  }
+
+.weather-current {
+    display: grid;
+    grid-template-columns: 37.5% 37.5% 25%;
+    grid-auto-flow: column;
+
+    background-color: rgb(208, 216, 224);
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 10%;
+    -webkit-box-shadow: 10px 10px 27px 3px rgba(0,0,0,0.47); 
+    box-shadow: 10px 10px 27px 3px rgba(0,0,0,0.47);
+}
+
+.weather-today-table {
+    height: 100%;
+}
+
+.weather-today-wrapper {
+    background-color: rgba(104, 104, 104, 0.582);
+    -webkit-box-shadow: 15px 14px 36px 0px rgba(0,0,0,0.48); 
+    box-shadow: 15px 14px 36px 0px rgba(0,0,0,0.48);    
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+    background-color: rgb(208, 216, 224);
+    margin: 1rem;
+    padding: 2.5rem;
+    border-radius: 10%;
+    -webkit-box-shadow: 10px 10px 27px 3px rgba(0,0,0,0.47); 
+    box-shadow: 10px 10px 27px 3px rgba(0,0,0,0.47);
+}
+
+.forecast-table {
+    justify-content: center;
+    justify-items: center;
+}
+
+.forecast-tomorrow {
+    background-color: rgba(104, 104, 104, 0.582);
+    -webkit-box-shadow: 15px 14px 36px 0px rgba(0,0,0,0.48); 
+    box-shadow: 15px 14px 36px 0px rgba(0,0,0,0.48);    
+    border-radius: 15%;
+}
+
+.weather-current-desc {
+    font-size: 1.75rem;
+}
+
+.weather-current-icon-wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.weather-current-icon {
+    height: 200px;
+    width: 200px;
+}   
+
+.weather-current-table {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+
+p {
+    padding-left: 1rem;
+}
+
+.weather-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.weather-icon-wrapper-small {
+    justify-content: center;
+    justify-items: center;
+}
+
+.weather-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.weather-daily-icon {
+    height: 64px;
+    width: 64px;
+}
+
+.weather-daily-icon-large {
+    height: 80px;
+    width: 80px;
+}
+
+.weather-daily-icon-small {
+    height: 42px;
+    width: 42px;
+}
+
+.weather-daily-name {
+    font-family: Bebas Neue;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.weather-daily-temp {
+    font-family: Bebas Neue;
+    text-align: center;
+}
