@@ -16,17 +16,37 @@ body {
 }
 
 @keyframes welcome {
-  0% {opacity: 100%;}
-  50% {opacity: 100%;}
-  100% {opacity: 0%;}
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
 }
 
 @keyframes welcome-text {
-  0% {opacity: 0%;}
-  10% {opacity: 0%;font-size: 3rem;}
-  35% {opacity: 100%;font-size: 4rem;}
-  50% {opacity: 100%;font-size: 4rem;}
-  100% {opacity: 0%;font-size: 1rem;}
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 0%;
+    font-size: 3rem;
+  }
+  35% {
+    opacity: 100%;
+    font-size: 4rem;
+  }
+  50% {
+    opacity: 100%;
+    font-size: 4rem;
+  }
+  100% {
+    opacity: 0%;
+    font-size: 1rem;
+  }
 }
 
 .welcome {
